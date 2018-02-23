@@ -13,15 +13,15 @@
   "env": {
     "GH_TOKEN": {
       "description": "Github account token to access needed repositories",
-      "value": "b1c2c25a156878b7d1e787af8df755f02d5bbf69"
+      "value": ""
     },
     "SLACK_TOKEN": {
       "description": "Slack token for bot",
-      "value": "xoxb-304619527120-OdNqHljRD6k6YEdLgGwMhiZn"
+      "value": ""
     },
     "GH_REPOS": {
       "description": "Repositories to watch in user/repo format, comma separated",
-      "value": "spacebetween/hrgo-recruitment,spacebetween/hrgo-registrator,spacebetween/remote-trauma,spacebetween/spacebetween-v2,spacebetween/SGBD,spacebetween/HRGOBranchApp,spacebetween/manual,"
+      "value": ""
     },
     "GH_LABELS": {
       "description": "Repository labels to filter pull requests, comma separated",
@@ -40,7 +40,7 @@
     },
     "CHECK_INTERVAL": {
       "description": "Time interval to check for new pull requests, in milliseconds",
-      "value": "3600000",
+      "value": "3000",
       "required": false
     },
     "SLACK_BOT_NAME": {
